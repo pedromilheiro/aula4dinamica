@@ -1,0 +1,51 @@
+html {
+    background: rgba(240, 196, 230, 0.26);
+}
+
+body{
+    font-family: 'Raleway';
+}
+
+#top-section{
+display: grid;
+grid-auto-flow: column;
+background: #76BEBE;
+color: white;
+}
+
+.title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 75px;
+    text-align: center;
+    color: #CF509C;
+    
+}
+
+.subTitle{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+}
+
+header{
+    min-width: 100vh;
+    background-color: white;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#sec-form {
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 50px;
+    grid-auto-columns: 40vw;
+}
+#forms {
+    display: grid;
+    grid-auto-flow: row;
+}
